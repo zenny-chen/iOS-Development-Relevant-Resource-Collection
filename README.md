@@ -60,14 +60,6 @@
 
 <br/>
 
-### Swift编程语言相关
-
-1. [Creating Objective-C and C++ packages using Swift Package Manager](http://ankit.im/swift/2016/05/21/creating-objc-cpp-packages-with-swift-package-manager/)
-1. [Swift Package Manager](https://github.com/apple/swift-package-manager/tree/master/Documentation)
-1. [在CentOS7.2中安装swift编译器](https://blog.csdn.net/solan8/article/details/80674953)
-
-<br />
-
 ### iOS上获取某个文件的修改日期
 
 ```objectivec
