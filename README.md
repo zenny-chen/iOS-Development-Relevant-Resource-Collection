@@ -87,7 +87,9 @@ if(attrs != nil && attrs.count > 0)
 
 ### iOS上使用iconfont
 
-首先可以参考这篇文章做基础配置：[iOS使用iconFont](https://www.jianshu.com/p/36007fc8ba10)
+我们可以参考这篇文章做基础配置：[iOS使用iconFont](https://www.jianshu.com/p/36007fc8ba10)
+
+首先将iconfont.ttf放入图片资源的assets中。在Xcode工程设置首页能跳转到那个页面，即放图标和首屏图片的地方。
 
 如果我们要避免自己项目的iconfont与别家项目的iconfont混起来，那么我们可以编辑我们当前项目iconfont的**font family**。我们在阿里巴巴iconfont的首页中将光标移动到“图标管理”，然后选择“我的项目”。进入到项目界面之后，将光标移动到“更多操作”，然后选择“编辑项目”，随后我们可以修改**Font Family**。各位需要注意的是，iconfont的文件名与Font Family两者之间是没有关系的，所以光修改文件名还没用。
 假定我们这里的Font Family修改为了“xxx_iconfont”，那么我们可以这么使用：
