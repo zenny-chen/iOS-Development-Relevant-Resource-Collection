@@ -27,6 +27,7 @@
 - [App Store 营销准则](https://developer.apple.com/app-store/marketing/guidelines/cn/)
 - [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
 - [你的App真正适配了iOS 9吗？（校验、禁用ATS）](http://www.csdn.net/article/2015-09-11/2825675)
+- [iOS的iPhone屏幕尺寸、分辨率、PPI和使用123倍图](https://www.jianshu.com/p/31a1aca46ef8)
 - [如何用Swift实现一个好玩的弹性动画](http://www.cocoachina.com/swift/20150911/13215.html)
 - [iOS dSYM文件结构剖析（上）](http://www.csdn.net/article/2015-08-04/2825369)
 - [iOS dSYM文件结构剖析(下)](http://blog.csdn.net/MaximLi/article/details/47300171)
