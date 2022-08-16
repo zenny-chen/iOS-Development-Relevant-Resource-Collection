@@ -30,6 +30,7 @@
 - [iOS的iPhone屏幕尺寸、分辨率、PPI和使用123倍图](https://www.jianshu.com/p/31a1aca46ef8)
 - [关于苹果IDFA 新规 以及在iOS 14中的获取](https://www.jianshu.com/p/4e40eebc7b8c)
 - [iOS 一些设备信息的获取方法](https://blog.csdn.net/u013712343/article/details/120525765)
+- [iOS传感器（指南针、GPS、加速计、摇一摇）](https://www.jianshu.com/p/41f279f2f439)
 - [如何用Swift实现一个好玩的弹性动画](http://www.cocoachina.com/swift/20150911/13215.html)
 - [iOS dSYM文件结构剖析（上）](http://www.csdn.net/article/2015-08-04/2825369)
 - [iOS dSYM文件结构剖析(下)](http://blog.csdn.net/MaximLi/article/details/47300171)
