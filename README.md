@@ -40,6 +40,7 @@
 - [How to make a Swift framework?](https://theswiftdev.com/2017/10/23/how-to-make-a-swift-framework/)
 - [动画黄金搭档:CADisplayLink & CAShapeLayer](http://www.cocoachina.com/ios/20161202/18252.html)
 - [IOS开发之自定义CALayer方式实现绘图](https://www.jianshu.com/p/2c37530a80c9)
+- [提取UIColor的RGBA](https://blog.csdn.net/iteye_7514/article/details/82483602)
 - [从Swift看Objective-C的数组使用](http://www.cocoachina.com/ios/20161222/18420.html)
 - [如何用Xcode 8和Swift 3 构建条形码和二维码识别器](http://www.cocoachina.com/ios/20161228/18394.html)
 - [How To Scan QR Code Using AVFoundation Framework](https://www.appcoda.com/qr-code-ios-programming-tutorial/)
