@@ -63,7 +63,7 @@
 - [Unity3D学习笔记之调用iOS的*.a库](https://gameinstitute.qq.com/community/detail/111853)
 - [Unity3D研究院之IOS全自动编辑framework、plist、oc代码（六十七）](https://blog.csdn.net/anypkv/article/details/72303571)
 - [iOS 应用内直接评分问题](https://blog.csdn.net/a18337101357/article/details/80282891)
-- iOS中将两个不同架构的库文件进行合并：lipo -create <lib1_path> <lib2_path> ... -output <dst_path>
+- iOS中将两个不同架构的库文件进行合并：**`lipo -create <lib1_path> <lib2_path> ... -output <dst_path>`**
 - [史诗级规范！全新Apple iOS设计规范指南](https://www.toutiao.com/a6745640758742614535/)
 - [iOS标准库中常用数据结构和算法之cache](https://www.toutiao.com/a6745643341427245571/)
 
