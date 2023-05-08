@@ -91,6 +91,28 @@ if(attrs != nil && attrs.count > 0)
 
 <br />
 
+### iOS获取应用当前Caches目录路径以及当前日期
+
+```objectivec
+    NSArray<NSString*> *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *path = [paths[0] stringByAppendingString:@"/hi.dat"];
+    
+    [NSFileManager.defaultManager createFileAtPath:path contents:NULL attributes:NULL];
+    
+    NSURL *url = [NSURL.alloc initFileURLWithPath:path];
+    NSLog(@"URL is: %@", url);
+    [url release];
+
+    NSDate *date = [NSDate dateWithTimeIntervalSinceNow:0.0];
+    // 打印日期：中间的空格可以用'at'或'T'等字符来分隔
+    NSDateFormatter *dateFomatter = NSDateFormatter.new;
+    [dateFomatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSLog(@"Current date is: %@", [dateFomatter stringFromDate:date]);
+    [dateFomatter release];
+```
+
+<br />
+
 ### iOS上使用iconfont
 
 我们可以参考这篇文章做基础配置：[iOS使用iconFont](https://www.jianshu.com/p/36007fc8ba10)
