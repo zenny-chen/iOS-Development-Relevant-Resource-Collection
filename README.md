@@ -12,6 +12,16 @@
 - [opengl展开一张鱼眼图](http://www.cocoachina.com/bbs/read.php?tid=177145)
 - [UIView边缘的glow动画特效 附效果图 + demo工程](http://www.cocoachina.com/bbs/read.php?tid=176102)
 - [iOS将UIView转换成UIImageView](https://blog.csdn.net/ICHENKE/article/details/49181355)
+- Quartz2D之如何将iOS默认上下文坐标系改变为Quartz通常坐标系——由于iOS的UIKit默认的坐标系的原点处于视图矩形的左上角，而Quartz的通常坐标系中的原点位于左下角。因此我们在使用Qaurtz处理图形的时候往往需要将坐标系转为与Quartz相一致的状态：
+```objectivec
+void translateCoordSystem(CGContextRef context, CGRect viewFrame)
+{
+    CGContextTranslateCTM(context, 0.0f, viewFrame.size.height);
+    CGContextScaleCTM(context, 1.0f, -1.0f);
+}
+```
+这样就可以正常绘制了。否则用默认方式绘制会出现上下颠倒的图形。
+
 - [实现iOS应用内购买的三个核心步骤](http://blog.csdn.net/nimingzhe2008/article/details/19759589)
 - [swift版内购](http://www.cnblogs.com/helloandroid/p/4613683.html)
 - [iOS Fonts](http://iosfonts.com)
