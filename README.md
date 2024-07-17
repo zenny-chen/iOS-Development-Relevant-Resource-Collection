@@ -3,7 +3,7 @@
 
 <br />
 
-- [iOS Device Models](https://www.theiphonewiki.com/wiki/Models)
+- [iOS Device Models](https://theapplewiki.com/wiki/Models)
 - [iOS10系统自动升级防止办法介绍](https://m.cr173.com/w/115259)
 - [如何在iOS地图上高效显示大量数据](http://www.cocoachina.com/gamedev/misc/2013/1216/7548.html)
 - [asn1c](https://github.com/vlm/asn1c/blob/master/INSTALL.md)
